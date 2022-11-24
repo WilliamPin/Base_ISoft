@@ -1,0 +1,344 @@
+body{
+	background-image: url('a_1.jpg');
+}
+
+nav {
+    top:10px;
+    position: absolute;
+    border-color: #000;
+    left:0;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 100000px;
+} 
+
+nav ul {
+	list-style:none;
+	color: #000;
+	z-index: 2000;
+}
+ 
+nav > ul {
+	display:table;
+	/*Quitamos el overflow hidden que estaba aqui*/
+	width:100%;
+	background:#198DB3;
+	color: #fff;
+	position: absolute;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display: block;
+	position: absolute;
+	background: #0cf;
+	color: #fff;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height:0%;
+	margin-top: 2px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+	display:block;
+	line-height:20px;
+	padding:20px;
+	color: #222;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background: #5da5a2;
+}
+ 
+nav > ul > li > a span {
+	background: #fff;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position: absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .cero {
+	background: #5da5a2;
+}
+
+nav ul li a .primero {
+	background: #59BFE7;
+}
+ 
+nav ul li a .segundo {
+	background: #5da5a2;
+}
+ 
+nav ul li a .tercero {
+	background: #59BFE7;
+}
+
+nav ul li a .cuarto {
+	background: #5da5a2;
+}
+ 
+.title{
+    background-color: oldlace;
+    color: black;
+    top:80px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 100000px;
+        border-color: #000;
+        -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+}
+
+.login{
+    background-color: darksalmon;
+    top:0px;
+    position: absolute;
+    left:0;
+    right:100;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 200px;
+	width: 100px;
+}
+
+.navegador{
+    color: #0066ff;
+    background-color: #59BFE7;
+    top:480px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 200px;
+        margin-left: 20px;
+        border-color: #000;
+        -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+
+}
+
+.navegador2{
+    color: #0066ff;
+    background-color: #59BFE7;
+    top: 690px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 200px;
+        margin-left: 20px;
+        border-color: #000;
+        -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+
+}
+
+.otro{
+    color: #ffffff;
+    top:930px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin-top: 0px;
+	float: none;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 200px;
+        height: 150px;
+        margin-left: 20px;
+        -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #59BFE7;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #ccffcc;
+    color: black;
+}
+
+.articulos{
+    background-color: #ffffff;
+    top:480px;
+    position: absolute;
+    left:20;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px;
+	max-width: 900px;
+	width: 9000px;
+        margin-right: 10px;
+        height: 600px;
+          -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+}
+
+
+.galeria {
+  height: calc( var(--h) + 3em);
+  width: var(--w);
+  margin:1em;
+  
+  position: relative;
+  display:inline-block;
+}
+
+.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria input[type=radio] {
+  position: relative;
+  bottom: calc(-1 * var(--h) - 1.5em);
+  left: .5em;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
+.info{
+    background-color: ivory;
+    top:1150px;
+    position: absolute;
+    left:0;
+    right:0;
+    height: 300px;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 10000px;
+        -webkit-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+	box-shadow: -2px 3px 22px 6px rgba(0,0,0,0.75);
+}
+
+.logo{
+    margin-top: -200px;
+    margin-left: 700px;
+}
+
+h1{
+   margin-left: 20px;
+   font-family: sans-serif; 
+}
+
+h2{
+   margin-left: 20px;
+   font-family: sans-serif; 
+}
+
+h3{
+   text-height: max-size;
+   font-family: serif; 
+   font-size: 45px;
+   color: #198DB3;
+   text-shadow: 0.1em 0.1em 0.2em #ffffff;
+}
+
+.conte{
+    background-color: ivory;
+    top:0px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin-top: -10px;
+	float: left;
+	margin: 20px auto;
+	max-width: 1200px;
+	width: 100000px;
+}
+

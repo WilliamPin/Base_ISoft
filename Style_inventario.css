@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('a_1.jpg');
+}
+
+.form-register2 {
+  width: 1200px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register2 h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.form-register2 p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register2 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register2 .botons {
+    background-color: #4CAF50;
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+   
+.buttonvolverinven {
+    float: end;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.buttonvolverinven {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonvolverinven {background-color: #008CBA;} /* Blue */
+
+.buttonvolverinven:hover{
+    background-color: #4CAF50;
+    color: black;
+}
+
+h1{
+    font-size: 30px;
+}
